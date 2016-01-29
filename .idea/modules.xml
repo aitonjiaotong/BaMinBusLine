@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyApplication12.16.iml" filepath="$PROJECT_DIR$/MyApplication12.16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/busline_aiton0/busline_aiton0.iml" filepath="$PROJECT_DIR$/busline_aiton0/busline_aiton0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/finger_move/finger_move.iml" filepath="$PROJECT_DIR$/finger_move/finger_move.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_HKL/lib_HKL.iml" filepath="$PROJECT_DIR$/lib_HKL/lib_HKL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library_pull/library_pull.iml" filepath="$PROJECT_DIR$/library_pull/library_pull.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smssdk/smssdk.iml" filepath="$PROJECT_DIR$/smssdk/smssdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/拉手网/拉手网.iml" filepath="$PROJECT_DIR$/拉手网/拉手网.iml" />
+      <module fileurl="file://$PROJECT_DIR$/艾通公交/艾通公交.iml" filepath="$PROJECT_DIR$/艾通公交/艾通公交.iml" />
+    </modules>
+  </component>
+</project>

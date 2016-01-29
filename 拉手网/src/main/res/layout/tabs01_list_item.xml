@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/images"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="20dp"
+
+            />
+
+        <TextView
+            android:singleLine="false"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="麦霸KTV"
+            android:id="@+id/product"
+            android:layout_alignTop="@+id/images"
+            android:layout_toRightOf="@+id/images"
+            android:layout_marginLeft="10dp"
+
+            android:layout_toStartOf="@+id/textView45"
+            android:layout_toLeftOf="@+id/textView45"/>
+
+        <TextView
+            android:layout_marginRight="20dp"
+            android:textSize="10sp"
+            android:singleLine="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="集美大学3小时欢唱"
+            android:id="@+id/short_title"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignLeft="@+id/product"
+            android:layout_alignStart="@+id/product"/>
+
+        <TextView
+            android:textSize="8sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13.4km"
+            android:id="@+id/textView45"
+            android:layout_alignTop="@+id/product"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp"
+
+            />
+
+        <TextView
+            android:textColor="#ff5c0c"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¥"
+            android:id="@+id/textView46"
+            android:layout_alignBottom="@+id/images"
+            android:layout_alignLeft="@+id/short_title"
+           />
+
+        <TextView
+            android:textColor="#ff5c0c"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="35"
+            android:id="@+id/price"
+            android:layout_alignBottom="@+id/textView46"
+            android:layout_toRightOf="@+id/textView46"
+            android:layout_toEndOf="@+id/textView46"/>
+
+        <TextView
+            android:textSize="8sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3105"
+            android:id="@+id/bought"
+            android:layout_alignBaseline="@+id/price"
+            android:layout_alignBottom="@+id/price"
+            android:layout_alignRight="@+id/short_title"
+            android:layout_alignEnd="@+id/short_title"/>
+
+        <TextView
+
+            android:textSize="8sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¥72"
+            android:id="@+id/value"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_alignTop="@+id/bought"
+            android:layout_toRightOf="@+id/price"
+            android:layout_toEndOf="@+id/price"/>
+
+    </RelativeLayout>
+</LinearLayout>

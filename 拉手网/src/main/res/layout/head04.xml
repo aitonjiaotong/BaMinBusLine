@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="热映影片"
+                android:id="@+id/textView31"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="17dp"
+                android:layout_marginStart="17dp"/>
+
+            <ImageView
+                android:src="@mipmap/icon_right_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView24"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="15dp"
+                android:layout_marginEnd="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="全部影片"
+                android:id="@+id/textView32"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/imageView24"
+                android:layout_toStartOf="@+id/imageView24"
+                android:layout_marginRight="15dp"
+
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:background="#dddddd"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="right"/>
+
+        <HorizontalScrollView
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/horizontalScrollView">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <RelativeLayout
+                    android:scrollbars="none"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:scaleType="fitXY"
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_width="110dp"
+                        android:layout_height="130dp"
+                        android:id="@+id/imageView25"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="精灵旅社2"
+                        android:id="@+id/tv_num1"
+                        android:layout_below="@+id/imageView25"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:textColor="#ff952c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8.0分"
+                        android:id="@+id/textView34"
+                        android:layout_below="@+id/tv_num1"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:scrollbars="none"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:scaleType="fitXY"
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_width="110dp"
+                        android:layout_height="130dp"
+                        android:id="@+id/imageView26"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="精灵旅社2"
+                        android:id="@+id/textView35"
+                        android:layout_below="@+id/imageView26"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:textColor="#ff952c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8.0分"
+                        android:id="@+id/textView36"
+                        android:layout_below="@+id/textView35"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:scrollbars="none"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:scaleType="fitXY"
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_width="110dp"
+                        android:layout_height="130dp"
+                        android:id="@+id/imageView27"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="精灵旅社2"
+                        android:id="@+id/textView37"
+                        android:layout_below="@+id/imageView27"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:textColor="#ff952c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8.0分"
+                        android:id="@+id/textView38"
+                        android:layout_below="@+id/textView37"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:scrollbars="none"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:scaleType="fitXY"
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_width="110dp"
+                        android:layout_height="130dp"
+                        android:id="@+id/imageView28"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="精灵旅社2"
+                        android:id="@+id/textView39"
+                        android:layout_below="@+id/imageView28"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:textColor="#ff952c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8.0分"
+                        android:id="@+id/textView40"
+                        android:layout_below="@+id/textView39"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:scrollbars="none"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:scaleType="fitXY"
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_width="110dp"
+                        android:layout_height="130dp"
+                        android:id="@+id/imageView29"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="精灵旅社2"
+                        android:id="@+id/textView41"
+                        android:layout_below="@+id/imageView29"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:textColor="#ff952c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8.0分"
+                        android:id="@+id/textView42"
+                        android:layout_below="@+id/textView41"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:scrollbars="none"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:scaleType="fitXY"
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_width="110dp"
+                        android:layout_height="130dp"
+                        android:id="@+id/imageView30"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="精灵旅社2"
+                        android:id="@+id/textView43"
+                        android:layout_below="@+id/imageView30"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:textColor="#ff952c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8.0分"
+                        android:id="@+id/textView44"
+                        android:layout_below="@+id/textView43"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:scrollbars="none"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:scaleType="fitXY"
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_width="110dp"
+                        android:layout_height="130dp"
+                        android:id="@+id/imageView37"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="精灵旅社2"
+                        android:id="@+id/textView53"
+                        android:layout_below="@+id/imageView37"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:textColor="#ff952c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8.0分"
+                        android:id="@+id/textView54"
+                        android:layout_below="@+id/textView53"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:scrollbars="none"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:scaleType="fitXY"
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_width="110dp"
+                        android:layout_height="130dp"
+                        android:id="@+id/imageView38"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="精灵旅社2"
+                        android:id="@+id/textView55"
+                        android:layout_below="@+id/imageView38"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:textColor="#ff952c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8.0分"
+                        android:id="@+id/textView56"
+                        android:layout_below="@+id/textView55"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:scrollbars="none"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:scaleType="fitXY"
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_width="110dp"
+                        android:layout_height="130dp"
+                        android:id="@+id/imageView39"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="精灵旅社2"
+                        android:id="@+id/textView57"
+                        android:layout_below="@+id/imageView39"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:textColor="#ff952c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8.0分"
+                        android:id="@+id/textView58"
+                        android:layout_below="@+id/textView57"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"/>
+                </RelativeLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+</LinearLayout>

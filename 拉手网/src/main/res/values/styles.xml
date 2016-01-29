@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="settext01">
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+    <style name="switchBtn">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+    <style name="line01">
+        <item name="android:background">#dedede</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+    <style name="settext02">
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+    <style name="myratingbar" parent="android:Widget.Holo.Light.RatingBar.Small">
+    <item name="android:progressDrawable">@drawable/myratingbar</item>
+    <item name="android:minHeight">20dp</item>
+    <item name="android:maxHeight">23dp</item>
+    </style>
+
+
+</resources>

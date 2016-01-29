@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--改这里-->
+    <item android:duration="150" android:drawable="@drawable/refreshing_image_01"></item>
+    <item android:duration="150" android:drawable="@drawable/refreshing_image_02"></item>
+</animation-list><!-- From: file:/E:/AndroidStudioProjects/MyApplication.11.18.night/library_pull/src/main/res/anim/lashou_anim.xml --><!-- From: file:/E:/AndroidStudioProjects/MyApplication.11.18.night/library_pull/build/intermediates/bundles/debug/res/anim/lashou_anim.xml -->

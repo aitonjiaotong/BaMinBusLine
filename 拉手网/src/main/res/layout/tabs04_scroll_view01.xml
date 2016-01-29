@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/scroll_view01"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="仅在WIFI下显示图片"
+                android:id="@+id/textView14"
+                style="@style/settext01"
+                 />
+            <com.zhangjiebo.grouppurchase.costom.UISwitchButton
+                android:id="@+id/switchbtn_abstract"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/switchBtn"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            style="@style/line01"></RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="消息提醒"
+                android:id="@+id/tv2"
+                style="@style/settext01"
+                />
+            <com.zhangjiebo.grouppurchase.costom.UISwitchButton
+                android:id="@+id/UISwitchButton02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/switchBtn"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            style="@style/line01"></RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="分享设置"
+                style="@style/settext01"
+                android:id="@+id/textView20" />
+
+            <ImageView
+                android:src="@mipmap/arrow_right_my_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView17"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="20dp"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            style="@style/line01"></RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/textsize"
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+            <TextView
+                android:text="清除缓存"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/settext01"
+                android:id="@+id/tip_notify"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.92MB"
+                android:id="@+id/textsizemsg"
+                style="@style/settext02" />
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>

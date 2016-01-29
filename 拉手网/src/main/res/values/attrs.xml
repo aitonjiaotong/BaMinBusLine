@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyIndicator">
+        <attr name="IndicatorNum" format="integer"/>
+        <attr name="IndicatorBgColor" format="color"/>
+        <attr name="IndicatorFgColor" format="color"/>
+        <attr name="IndicatorRadius" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="SwitchButton">
+        <attr name="bmWidth" format="dimension"></attr>
+        <attr name="bmHeight" format="dimension"></attr>
+    </declare-styleable>
+</resources>

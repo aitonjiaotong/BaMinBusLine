@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">BusLine_AiTon</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tab_nearby">附近</string>
+    <string name="tab_collection">常用</string>
+    <string name="tab_transfer">路线</string>
+    <string name="tab_me">我</string>
+    <string name="fragment_me_unlogin">未登录</string>
+    <string name="fragment_me_afterlogin">登录后可同步收藏夹</string>
+    <string name="fragment_me_synchronous">同步</string>
+    <string name="fragment_me_choose_city">选择城市</string>
+    <string name="fragment_me_offline_map">离线地图</string>
+    <string name="fragment_me_msgnotifi">消息通知</string>
+    <string name="fragment_me_getoff_remind">下车提醒</string>
+    <string name="fragment_me_setting">设置</string>
+    <string name="fragment_me_login_weixin">微信登录</string>
+    <string name="fragment_me_login_qq">QQ登录</string>
+    <string name="fragment_me_cancel">取消</string>
+    <string name="fragment_collection_hint">在这里可以方便地查看常坐公交车，省流量刷新呦！</string>
+    <string name="fragment_collection_add">添加常用线路</string>
+
+    <string name="search_recharge_point">充值点</string>
+    <string name="search_toilet">卫生间</string>
+    <string name="search_atm">取款机</string>
+
+    <string name="collection_add_search">输入您常坐的车</string>
+    <string name="collection_add_subtitle_nearby_bus">您附近的公交路线</string>
+
+    <string name="alert_subtitle_remind">您可以方便地查看常坐公交车。一键打开贴心的乘车提醒，看书、睡觉、听歌，都不怕坐过站!</string>
+
+    <string name="choose_city_actionbar_title">选择城市</string>
+    <string name="download_offline_map_actionbar_title">离线地图</string>
+
+
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_collection_add">CollectionAddActivity</string>
+    <string name="input_Loc_Activity">InputLocActivity</string>
+    <string name="title_activity_choose_city">ChooseCityActivity</string>
+    <string name="title_activity_down_load_off_line_map">DownLoadOffLineMapActivity</string>
+    <string name="title_activity_bus_line_info">BusLineInfoActivity</string>
+
+
+</resources>

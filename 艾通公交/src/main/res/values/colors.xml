@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="aiton_green">#34d083</color>
+    <color name="aiton_gray">#b6b6b6</color>
+    <color name="tabs_item_select">#3db724</color>
+    <color name="fengexian_color">#e8e8e8</color>
+    <color name="bg_white">#FFFFFF</color>
+</resources>

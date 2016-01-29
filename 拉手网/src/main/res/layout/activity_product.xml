@@ -1,0 +1,157 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.zhangjiebo.grouppurchase.ProductActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
+
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/relativeLayout">
+
+            <ImageView
+                android:src="@mipmap/icon_back"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/imageView18"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"/>
+
+            <ImageView
+                android:src="@mipmap/share"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/imageView31"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="商品详情"
+                android:id="@+id/textView11"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"/>
+
+            <ImageView
+                android:src="@mipmap/icon_uncollected"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/imageView32"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/imageView31"
+                android:layout_toStartOf="@+id/imageView31"
+                android:layout_marginRight="15dp"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:background="#dddddd"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="right"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayout2">
+
+        <com.handmark.pulltorefresh.library.PullToRefreshScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/product_scrollView"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/linearLayout2">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <include layout="@layout/product_01"></include>
+                <include layout="@layout/product_02"></include>
+                <include layout="@layout/product_03"></include>
+                <include layout="@layout/product_04"></include>
+                <include layout="@layout/product_05"></include>
+            </LinearLayout>
+        </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+    </FrameLayout>
+
+    <LinearLayout
+        android:background="#ffffff"
+        android:id="@+id/product_linear"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:background="#dddddd"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="right"/>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:textColor="#ff5c0c"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¥35"
+                android:id="@+id/textView66"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:textSize="18sp"
+                android:gravity="center"
+                android:background="@mipmap/bg_sort_selected"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:text="立即购买"
+                android:id="@+id/textView67"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="10dp"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:background="#dddddd"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+
+</RelativeLayout>
